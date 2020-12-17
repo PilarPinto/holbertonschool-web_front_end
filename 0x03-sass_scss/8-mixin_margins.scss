@@ -1,7 +1,7 @@
 /**Magin mixing*/
 @mixin mix($m_left, $m_right){
        margin-left: $m_left;
-       margin_right: $m_right;
+       margin-right: $m_right;
 }
 body { @include mix(10px, 10px); }
 
