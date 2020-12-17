@@ -1,0 +1,6 @@
+/*Loop headers*/
+@for $ind from 1 through 5 {
+     h#{$ind} {
+     	      font-size: 0px + $ind;
+     }
+}
