@@ -1,0 +1,22 @@
+/*Colums with loop*/
+
+@mixin anc($w){
+       width: $w;
+}
+
+@for $ind from 1 through 4{
+     .col-#{$ind}{
+	@if $ind == 1{
+	    @include anc(100%);
+	}
+	@else if $ind == 2{
+	  @include anc(50%);
+	}
+	@else if $ind == 3{
+	  @include anc(33.3333333333%);
+	}
+	@else {
+	  @include anc(25%);
+	}
+     }
+}
