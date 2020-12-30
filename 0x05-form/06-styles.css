@@ -764,7 +764,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     margin: 0.4rem 0 0;
 }
 
-    /* Form error handling
+/* Form error handling
     ============================= */
 
 /* The following code is used to place the icon in the after pseudo element. Because after and before are not possible in an input, we need to use a span that will be positioned on the right of our input. */
