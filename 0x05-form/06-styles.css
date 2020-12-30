@@ -28,9 +28,9 @@
 
     --text-color: var(--color-black);
     --valid-color: var(--color-green);
-    --error-color: var(--color-red)
+    --error-color: var(--color-red);
 
-		      --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
     --font-size-small: 1.2rem;
@@ -154,11 +154,12 @@ a:active {
     transition-property: color, background-color;
 }
 
-.button-primary{
+.button-primary {
     color: var(--color-white);
     background: var(--color-primary);
 }
-.button-primary:hover{
+
+.button-primary:hover {
     color: var(--color-primary);
     background: var(--color-white);
 }
@@ -658,29 +659,31 @@ ul.row {
 .tag-list li:last-child::after {
     content: "";
 }
+
 /*** FORM ***/
   /* Comment section
     ============================= */
-.post-comments{
+.post-comments {
     width: 80%;
     margin: 10rem 0 0 auto;
     padding-left: 7rem;
 }
 
-.post-comments .section-title{
+.post-comments .section-title {
     font-variant: small-caps;
 }
 
   /* Basic form
     ============================= */
-form{
+
+form {
     display: flex;
     flex-direction: column;
     padding: 1rem 0;
     margin: 0;
 }
 
-fieldset{
+fieldset {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -688,7 +691,7 @@ fieldset{
     padding: 0 0 2rem;
 }
 
-label{
+label {
     cursor: pointer;
     display: block;
     white-space: nowrap;
@@ -720,7 +723,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     font-size: var(--font-size-small);
 }
 
-   /* Form group
+    /* Form group
     ============================= */
 
 .form-group {
@@ -764,7 +767,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     margin: 0.4rem 0 0;
 }
 
-/* Form error handling
+    /* Form error handling
     ============================= */
 
 /* The following code is used to place the icon in the after pseudo element. Because after and before are not possible in an input, we need to use a span that will be positioned on the right of our input. */
